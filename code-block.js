@@ -5,7 +5,7 @@ function copyCode(button) {
 
   navigator.clipboard.writeText(textToCopy).then(() => {
     const originalText = button.innerText;
-    button.innerText = '복사 완료!';
+    button.innerText = 'Copied !!!';
     button.style.backgroundColor = '#388E3C';
 
     setTimeout(() => {
