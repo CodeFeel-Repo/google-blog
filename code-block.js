@@ -13,7 +13,7 @@ function copyCode(button) {
       button.style.backgroundColor = '#4CAF50';
     }, 2000);
   }).catch(err => {
-    console.error('클립보드 복사 실패:', err);
-    alert('복사에 실패했습니다.');
+    console.error('Copy Failed:', err);
+    alert('Sorry ~ Copy Failed.');
   });
 }
